@@ -1,0 +1,58 @@
+/*
+ * Phone number
+ */
+
+.phone-number {
+  font-size: 24px;
+  line-height: 14px;
+  padding-left: 25px;
+  background: url("images/green.png") no-repeat 0px 0px;
+  background: none, url("images/green.svg") no-repeat 0px 0px;
+  background-size: 20px 20px;
+  color: #1f7c07;
+}
+
+.phone-number span {
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.phone-number  > a {
+  color: #1f7c07;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+/*
+ * White Phone number
+ */
+
+.phone-number.phone-number--white {
+  background: url("images/white.png") no-repeat 0px 0px;
+  background: none, url("images/white.svg") no-repeat 0px 0px;
+  background-size: 20px 20px;
+  color: #fff;
+}
+
+.phone-number.phone-number--white a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Large Phone number
+ */
+.phone-number.phone-number--large {
+  background-position: left center;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 1;
+}
+.phone-number.phone-number--large span {
+  font-weight: 300;
+}
+.phone-number.phone-number--large a {
+  text-decoration: none;
+}
